@@ -23,7 +23,8 @@ export default function Navi() {
           <Menu.Item name="messages">Mesajlar</Menu.Item>
           <Menu.Menu position="right">
           <CartSummary />
-          {isAuthenticated? <SignedIn signOut = {handleSignOut}/> : <SignedOut signIn = {handleSignIn} />}
+          {isAuthenticated? <SignedIn signOut = {handleSignOut}/> 
+          : <SignedOut signIn = {handleSignIn} />}
           </Menu.Menu>
         </Container>
       </Menu>
