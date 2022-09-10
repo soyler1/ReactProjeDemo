@@ -4,10 +4,8 @@ import {Dropdown} from "semantic-ui-react";
 export default function CartSummary() {
   return (
     <div>
-      <Dropdown item text="Sepetiniz">
+      <Dropdown style={{marginTop:'0.5em'}} item text="Sepetiniz" >
         <Dropdown.Menu>
-          <Dropdown.Item>English</Dropdown.Item>
-          <Dropdown.Item>Russian</Dropdown.Item>
           <Dropdown.Item>Sepete Git</Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>

@@ -14,16 +14,10 @@ export default function Navi() {
           <Menu.Item name="messages">Mesajlar</Menu.Item>
 
           <Menu.Menu position="right">
-            <Menu.Item>
-              <CartSummary />
-            </Menu.Item>
+          <CartSummary />
 
-            <Menu.Item>
-              <SignedIn />
-            </Menu.Item>
-            <Menu.Item>
-              <SignedOut />
-            </Menu.Item>
+            <SignedIn />
+            <SignedOut />
           </Menu.Menu>
         </Container>
       </Menu>
