@@ -20,9 +20,9 @@ export default function ProductDetail() {
         <Card fluid>
           <Card.Content>
             <Card.Header>{product.productName}</Card.Header>
-            <Card.Meta>{product.category.categoryName}</Card.Meta>
+            <Card.Meta>{product.unitPrice}</Card.Meta>
             <Card.Description>
-              Steve wants to add you to the group <strong>best friends</strong>
+              {product.quantityPerUnit}
             </Card.Description>
           </Card.Content>
           <Card.Content extra>
