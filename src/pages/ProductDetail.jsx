@@ -20,10 +20,8 @@ export default function ProductDetail() {
         <Card fluid>
           <Card.Content>
             <Card.Header>{product.productName}</Card.Header>
-            <Card.Meta>{product.unitPrice}</Card.Meta>
-            <Card.Description>
-              {product.quantityPerUnit}
-            </Card.Description>
+            <Card.Meta>Birim Fiyatı: {product.unitPrice}</Card.Meta>
+            <Card.Description>{product.quantityPerUnit}</Card.Description>
           </Card.Content>
           <Card.Content extra>
             <div className="ui two buttons">
